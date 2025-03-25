@@ -21,6 +21,9 @@
         └── requirements.txt
 
 5. astro dev start
+    
+    visit to http://localhost:8080 
+
 
 
 
