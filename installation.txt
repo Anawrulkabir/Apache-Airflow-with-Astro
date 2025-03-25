@@ -1,0 +1,29 @@
+1. pip install apache-airflow
+
+2. brew install astro                              // for mac
+   winget install -e --id Astronomer.Astro         // for windows
+   curl -sSL install.astronomer.io | sudo bash -s  // for Linux
+
+3. astro config set container.binary docker -g     // run cli command in docker container
+
+4. astro dev init
+    
+     This will configure all the resources needed for an Airflow project in your current working directory.
+     Your current working directory will then look something like this:
+     
+        ├── dags/
+        ├── include/
+        ├── plugins/
+        ├── tests/
+        ├── airflow_settings.yaml
+        ├── Dockerfile
+        ├── packages.txt
+        └── requirements.txt
+
+5. astro dev start
+
+
+
+for port related error : https://www.astronomer.io/docs/astro/cli/troubleshoot-locally#ports-are-not-available-for-my-local-airflow-webserver
+
+Blog Link : https://www.datacamp.com/tutorial/getting-started-with-apache-airflow
